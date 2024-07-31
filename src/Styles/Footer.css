@@ -1,0 +1,49 @@
+/* Footer.css */
+
+footer {
+  background-color: #024F37;
+  color: #ECECEC; /* Светлый текст для футера */
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 200px;
+  margin: 0 20px;
+}
+
+.footer-column h4 {
+  color: #ECECEC; /* Розовый цвет заголовков */
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-family: 'Georgia', 'Times New Roman', serif; /* Шрифт для заголовков */
+}
+
+.footer-link {
+  display: block;
+  color: #ECECEC; /* Цвет ссылок */
+  text-decoration: none;
+  margin-bottom: 10px;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #AFB6A4;
+}
+
+.footer {
+  font-size: 14px;
+  margin: 0;
+  padding: 10px;
+  background-color: #1F1F1F; /* Темный фон для подвала */
+  color: #ECECEC; /* Светлый текст для подвала */
+}

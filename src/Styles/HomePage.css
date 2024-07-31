@@ -1,0 +1,220 @@
+.homepage {
+  background-color: #ECECEC; /* Background color */
+  padding: 20px;
+}
+
+.slider-section {
+  margin: 20px 0;
+}
+
+.slider-section .slide img {
+  width: 100%;
+  height: auto;
+  max-width: 800px; /* Smaller width for slider images */
+  margin: 0 auto;
+  display: block;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Shadow for slider images */
+}
+
+.info-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.info-image, .info-text {
+  flex: 1;
+  text-align: center;
+}
+
+.info-image img, .info-text .green-box {
+  width: 100%;
+  height: auto;
+  max-width: 400px; /* Width for images and green box */
+  margin: 0 auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Shadow for images and green box */
+}
+
+.info-text {
+  padding-left: 20px;
+}
+
+.green-box {
+  background-color: #024f3799;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 100%;
+  max-width: 400px; /* Width for green box */
+  margin: 0 auto;
+}
+
+.green-box h2, .green-box p {
+  color: white;
+  font-family: 'Recolors Personal Use', sans-serif; /* Use font for headings */
+}
+
+.green-box p {
+  font-family: 'Zt Chablis', serif; /* Use font for text */
+}
+
+.info-button {
+  background-color: #024F37;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.info-button:hover {
+  background-color: #AFB6A4;
+}
+
+.products-section, .reviews-section, .perfume-section {
+  margin: 20px 0;
+}
+
+.products-list, .reviews-list, .perfume-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.product-card, .review {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for product and review cards */
+  transition: box-shadow 0.3s ease;
+}
+
+.product-card:hover, .review:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Darker shadow on hover */
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.product-card h3, .review h3 {
+  margin: 0 0 10px;
+  font-family: 'Recolors Personal Use', sans-serif; /* Use font for headings */
+}
+
+.product-card p, .review p {
+  font-family: 'Zt Chablis', serif; /* Use font for text */
+  color: #2A2A28; /* Text color */
+}
+
+.view-details {
+  display: inline-block;
+  background-color: #024F37;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.view-details:hover {
+  background-color: #2A2A28;
+  }
+
+form {
+  margin-top: 20px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form div {
+  margin-bottom: 10px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 6px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+
+form button {
+  background-color: #024F37;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-section {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.contact-form {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.contact-form input {
+  width: 100%;
+  padding: 6px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+
+.contact-form button {
+  background-color: #024F37;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+/* Style for the registration link */
+.register-link {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Style for the registration link text */
+.register-link a {
+  color: #024F37; /* Emerald color */
+  text-decoration: none;
+}
+
+.register-link a:hover {
+  text-decoration: underline;
+}

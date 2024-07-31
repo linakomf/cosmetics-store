@@ -1,0 +1,75 @@
+/* src/Styles/CartPage.css */
+.cart-page {
+  padding: 20px;
+  background-color: #ECECEC; /* Светлый фон для страницы корзины */
+}
+
+.cart-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.cart-item {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cart-item img {
+  width: 100px;
+  height: auto;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.order-summary {
+  margin-top: 20px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.order-summary h3 {
+  margin-bottom: 20px;
+  color: #024F37; /* Изумрудный цвет для заголовков */
+}
+
+.order-button {
+  background-color: #024F37; /* Изумрудный цвет для кнопок заказа */
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+  text-align: center;
+}
+
+.order-button:hover {
+  background-color: #1f6b5f; /* Цвет кнопки при наведении */
+}
+
+.delete-button {
+  background-color: #024F37; /* Розовый цвет для кнопки удаления */
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.delete-button:hover {
+  background-color: #0b0b0b; /* Цвет кнопки удаления при наведении */
+}

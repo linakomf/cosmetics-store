@@ -1,0 +1,72 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ECECEC; 
+  padding: 15px 30px; /* Увеличен отступ для большего пространства */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Более заметная тень */
+  border-bottom: 1px solid #ddd; /* Легкая граница снизу */
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 80px; /* Немного увеличен размер логотипа */
+  height: auto;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  margin: 0 20px; /* Увеличено расстояние между пунктами меню */
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #2A2A28; /* Цвет текста ссылок */
+  font-weight: bold; /* Сделать текст жирным */
+  transition: color 0.3s ease; /* Плавный переход цвета */
+}
+
+nav ul li a:hover {
+  color:  #AFB6A4;
+}
+
+.header .icons {
+  display: flex;
+  align-items: center;
+}
+
+.header .icons a {
+  font-size: 1.5em; /* Увеличен размер иконок */
+  color: #2A2A28; /* Цвет иконок */
+  margin-left: 20px; /* Увеличено расстояние между иконками */
+  transition: color 0.3s ease; /* Плавный переход цвета */
+}
+
+.header .icons a:hover {
+  color: #AFB6A4;
+}
+
+.logout-button {
+  background-color: #AFB6A4;
+  color: white;
+  border: none;
+  padding: 10px 20px; /* Увеличены отступы кнопки */
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Плавные переходы фона и масштабирования */
+}
+
+.logout-button:hover {
+  background-color: #AFB6A4;
+  transform: scale(1.05); /* Немного увеличивается кнопка при наведении */
+}
